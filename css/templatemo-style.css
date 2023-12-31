@@ -508,7 +508,21 @@ figure.effect-honey:hover h2 i {
 p {
   line-height: 1.9;
 }
-
+#transferToursImage{
+  width: 12em;
+  height: auto;
+  margin-top: 1.6em;
+  border-radius: 10px;
+  border: 2px solid white;
+  transition: all 0.3s ease-in-out;
+}
+#transferToursImage:hover{
+  width: 12em;
+  height: auto;
+  border-radius: 10px;
+  border: 5px solid #3496d8;
+  transition: all 0.3s ease-in-out;
+}
 @media (min-width: 768px) {
   .tm-intro-text-container {
     padding-left: 65px;
@@ -520,7 +534,7 @@ p {
   }
 }
 .backdropFilter{
-  backdrop-filter: blur(2px) brightness(87%);
+  backdrop-filter: blur(2.7px) brightness(87%);
   padding: 9px;
   border-radius: 12px;
   box-sizing: border-box;
@@ -547,7 +561,6 @@ p {
     margin-left: auto;
     margin-right: auto;
   }
-
   .tm-intro-img {
     display: block;
     margin-left: auto;
