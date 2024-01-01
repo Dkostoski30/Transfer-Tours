@@ -538,6 +538,7 @@ p {
   padding: 9px;
   border-radius: 12px;
   box-sizing: border-box;
+  border: 2px solid white;
 }
 @media (min-width: 1200px) {
   .container {
