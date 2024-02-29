@@ -183,16 +183,11 @@ a:focus {
 
 .tm-intro-next {
   position: absolute;
-  bottom: 220px;
-  left: 0;
-  right: 0;
-}
-.tm-intro-nextVtorDel {
-  position: absolute;
   bottom: 120px;
   left: 0;
   right: 0;
 }
+
 @media (max-height: 480px) {
   .tm-hero-text-container-inner {
     margin-top: -40px;
