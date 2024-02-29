@@ -183,7 +183,7 @@ a:focus {
 
 .tm-intro-next {
   position: absolute;
-  bottom: 100px;
+  bottom: 120px;
   left: 0;
   right: 0;
 }
@@ -488,7 +488,7 @@ figure.effect-honey:hover h2 i {
 
 .tm-footer {
   position: absolute;
-  bottom: 55px;
+  bottom: 25px;
   left: 0;
   right: 0;
   padding: 0 15px;
