@@ -68,17 +68,19 @@ a:focus {
   position: fixed;
   width: 100%;
   z-index: 1000;
-  background-color: transparent;
+  background-color: white;
+  color: #7a7a7a;
   transition: all 0.3s ease;
 }
 
 .tm-navbar.scroll {
   background-color: white;
+  color: #7a7a7a;
   border-bottom: 1px solid #e9ecef;
 }
 
 .navbar-brand {
-  color: white;
+  color: #7a7a7a;
   font-size: 1.2rem;
   font-weight: bold;
 }
@@ -89,7 +91,7 @@ a:focus {
 }
 
 .tm-navbar.scroll .navbar-brand {
-  color: #8f8f8f;
+  color: #7a7a7a;
 }
 
 .nav-item {
@@ -97,11 +99,11 @@ a:focus {
 }
 
 .tm-nav-link {
-  color: white;
+  color: #7a7a7a;
 }
 
 .tm-navbar.scroll .tm-nav-link {
-  color: #8f8f8f;
+  color: #7a7a7a;
 }
 
 .tm-navbar.scroll .tm-nav-link:hover,
@@ -117,16 +119,16 @@ a:focus {
 }
 
 .navbar-toggler-icon {
-  color: white;
+  /*color: white;*/
   padding-top: 6px;
 }
 
 .tm-navbar.scroll .navbar-toggler {
-  border: 1px solid #8f8f8f;
+  border: 1px solid #7a7a7a;
 }
 
 .tm-navbar.scroll .navbar-toggler-icon {
-  color: #8f8f8f;
+  color: #7a7a7a;
 }
 
 /* Hero */
@@ -178,7 +180,7 @@ a:focus {
 
 .tm-hero-title {
   font-size: 3.5rem;
-  text-shadow: 2px 2px 2px #333;
+  text-shadow: 2px 2px 2px rgba(51, 51, 51, 0.61);
 }
 
 .tm-intro-next {
@@ -366,7 +368,9 @@ figure.effect-honey img {
 figure.effect-honey:hover img {
   opacity: 0.5;
 }
-
+#contact > div > div > div.col-12 > h2{
+  text-shadow: 2px 2px 2px rgba(51, 51, 51, 0.63);
+}
 figure.effect-honey figcaption::before {
   position: absolute;
   bottom: 0;
@@ -427,15 +431,17 @@ figure.effect-honey:hover h2 i {
 }
 
 .tm-underline {
-  border-top: 2px solid white;
+  border-top: 2px solid #3ba0dd;
   height: 8px;
   width: 100%;
 }
-
+#contact > div > div > div.col-12 > p{
+  color: #4d4d4d;
+}
 .tm-underline-inner {
   width: 25%;
   height: 8px;
-  background: white;
+  background: #3ba0dd;
 }
 
 .tm-contact-item {
@@ -449,7 +455,7 @@ figure.effect-honey:hover h2 i {
 
 .tm-contact-item-link i,
 .tm-contact-item-link span {
-  color: white;
+  color: #4d4d4d;
   transition: all 0.3s ease;
 }
 
@@ -457,7 +463,18 @@ figure.effect-honey:hover h2 i {
 .tm-contact-item-link:hover span {
   color: #3496d8;
 }
-
+#HomeButton{
+  position: fixed;
+  top: 90%;
+  left: 93%;
+  padding: 7px;
+  border-radius: 100%;
+  background: #3ba0dd;
+}
+#HomeButton > img{
+  width: 32px;
+  height: auto;
+}
 .tm-input {
   padding: 8px 25px;
   border-radius: 3px;
@@ -532,13 +549,16 @@ p {
     padding-right: 30px;
     padding-left: 30px;
   }
+
 }
 .backdropFilter{
-  backdrop-filter: blur(2.7px) brightness(87%);
-  padding: 9px;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 55px;
   border-radius: 12px;
   box-sizing: border-box;
-  border: 2px solid white;
+  backdrop-filter: blur(7px);
+  color: #3496d8;
+  border: 2px solid rgba(255, 255, 255, 0.7);
 }
 @media (min-width: 1200px) {
   .container {
@@ -566,6 +586,18 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+  #HomeButton{
+    position: fixed;
+    top: 90%;
+    left: 85%;
+    padding: 7px;
+    border-radius: 100%;
+    background: #3ba0dd;
+  }
+  #HomeButton > img{
+    width: 32px;
+    height: auto;
   }
 
   .tm-btn-submit {
